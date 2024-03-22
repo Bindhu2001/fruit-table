@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fruit-names{
+    max-width: 800px;
+    margin: 40px auto;
+}
+.fruit-names select{
+  width: 100%;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    width:600px;
+    line-height:10px
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 15px;
+  }
+  button {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
